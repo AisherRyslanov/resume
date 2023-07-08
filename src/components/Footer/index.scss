@@ -1,0 +1,18 @@
+#footer{
+  background: #626775;
+  height: 130px;
+
+  .footer{
+    &__main{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a{
+        font-size: 40px;
+        padding: 40px;
+        color: white;
+      }
+    }
+  }
+}
